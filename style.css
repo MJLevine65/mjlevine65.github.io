@@ -11,11 +11,13 @@ body {
 header {
   background-color: #1051C1;
   color: white;
+  outline: 25px darkblue;
   padding: 2em 0;
   text-align: center;
 }
 
 header h1 {
+  outline: 25px darkblue;
   margin: 0;
   font-size: 2.5em;
 }
@@ -23,6 +25,12 @@ header h1 {
 header p {
   font-size: 1.2em;
   margin: 0.5em 0 1em;
+}
+
+header img {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
 }
 
 /* Navigation */
@@ -53,8 +61,20 @@ section {
 }
 
 section h2 {
-  color: #2c3e50;
+  color: darkblue;
   margin-bottom: 0.5em;
+}
+
+section a {
+  color: darkblue;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+
+}
+
+section a:hover {
+  text-decoration: underline;
 }
 
 /* Portfolio list */
