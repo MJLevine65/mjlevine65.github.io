@@ -12,8 +12,8 @@ header {
   background-color: #1051C1;
   color: white;
   outline: 25px darkblue;
-  padding: 2em 0;
   text-align: center;
+  height: 200px;
 }
 
 header h1 {
@@ -29,8 +29,10 @@ header p {
 
 header img {
   margin: 0;
-  padding: 0;
+  padding: 1;
   border: 1px solid black;
+  height: 99%;
+  float: left;
 }
 
 /* Navigation */
